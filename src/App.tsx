@@ -1,4 +1,4 @@
-import reactLogo from "./assets/react.svg";
+import githubLogo from "./assets/github.svg";
 import viteLogo from "/vite.svg";
 import { useCounter } from "./hooks/useCounter";
 
@@ -24,19 +24,25 @@ function App() {
               alt="Vite logo"
             />
           </a>
-          <a href="https://react.dev" target="_blank">
+          <a
+            href="https://topheman.github.io/me/"
+            target="_blank"
+            title="topheman's website"
+          >
             <img
-              src={reactLogo}
+              src={githubLogo}
               className={`
-                h-24 animate-spin p-6 transition-[filter] duration-300
+                h-24 animate-spin p-6 invert transition-[filter] duration-300
                 [animation-duration:20s]
                 hover:drop-shadow-[0_0_2em_#61dafbaa]
               `}
-              alt="React logo"
+              alt="GitHub logo"
             />
           </a>
         </div>
-        <h1 className="mb-8 text-5xl leading-tight">Vite + React</h1>
+        <h1 className="mb-8 text-5xl leading-tight">
+          topheman/vite-react-ts-template
+        </h1>
         <div className="p-8">
           <button
             onClick={increment}
@@ -56,7 +62,7 @@ function App() {
           </p>
         </div>
         <p className="text-[#888]">
-          Click on the Vite and React logos to learn more
+          Click on the Vite and GitHub logos to learn more
         </p>
       </div>
     </div>
