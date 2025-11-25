@@ -4,7 +4,11 @@ This is a starter template for frontend projects. It includes a robust set of fe
 
 ## Features
 
-- **Modern frontend stack**: React 19 + Vite 7 + TypeScript 5.9 + Tailwind CSS 4.
+- **Modern frontend stack**:
+  - React 19 (with react-compiler)
+  - Vite 7
+  - TypeScript 5.9
+  - Tailwind CSS 4
 - **Testing**: Vitest + React Testing Library
 - **Linting**: ESLint with:
   - Prettier configured as a plugin
