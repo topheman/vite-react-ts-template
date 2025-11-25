@@ -1,9 +1,9 @@
-import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import { useCounter } from "./hooks/useCounter";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const { count, increment } = useCounter();
 
   return (
     <div
@@ -39,7 +39,7 @@ function App() {
         <h1 className="mb-8 text-5xl leading-tight">Vite + React</h1>
         <div className="p-8">
           <button
-            onClick={() => setCount((count) => count + 1)}
+            onClick={increment}
             className={`
               cursor-pointer rounded-lg border border-transparent bg-[#1a1a1a]
               px-5 py-2.5 font-sans text-base font-medium
