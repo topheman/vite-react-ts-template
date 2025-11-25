@@ -3,6 +3,26 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "A starter template for frontend projects.",
+  "author": "Christophe Rosset",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/topheman/vite-react-ts-template"
+  },
+  "homepage": "https://github.com/topheman/vite-react-ts-template",
+  "bugs": {
+    "url": "https://github.com/topheman/vite-react-ts-template/issues"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "testing",
+    "linting",
+    "formatting"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
