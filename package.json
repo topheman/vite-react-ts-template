@@ -9,6 +9,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "typecheck:app": "tsc --noEmit -p ./tsconfig.app.json",
     "typecheck:node": "tsc --noEmit -p ./tsconfig.node.json",
     "typecheck": "npm run typecheck:app && npm run typecheck:node"
@@ -35,7 +37,8 @@
     "tailwindcss": "^4.1.17",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
-    "vite": "npm:rolldown-vite@7.2.5"
+    "vite": "npm:rolldown-vite@7.2.5",
+    "vitest": "^4.0.13"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
