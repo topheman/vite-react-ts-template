@@ -1,6 +1,7 @@
 import js from '@eslint/js'
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import eslintPluginBetterTailwindcss from "eslint-plugin-better-tailwindcss"
+import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
@@ -29,9 +30,11 @@ export default defineConfig([
     },
     plugins: {
       "better-tailwindcss": eslintPluginBetterTailwindcss,
+      "testing-library": eslintPluginTestingLibrary,
     },
     rules: {
       ...eslintPluginBetterTailwindcss.configs['recommended-error'].rules,
+      ...eslintPluginTestingLibrary.configs['flat/react'].rules,
     }
   },
 ])
