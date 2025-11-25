@@ -8,7 +8,10 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typecheck:app": "tsc --noEmit -p ./tsconfig.app.json",
+    "typecheck:node": "tsc --noEmit -p ./tsconfig.node.json",
+    "typecheck": "npm run typecheck:app && npm run typecheck:node"
   },
   "dependencies": {
     "react": "^19.2.0",
