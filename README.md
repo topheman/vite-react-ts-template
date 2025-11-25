@@ -31,3 +31,11 @@ This is a starter template for frontend projects. It includes a robust set of fe
 - `npm run test`: Run tests
 - `npm run test:watch`: Run tests in watch mode
 - `npm run typecheck`: Run type checking
+
+## Deploy
+
+This template is configured to deploy to GitHub Pages when you push to the `master` branch.
+
+To enable this, on GitHub, in your repository settings, go to "Pages" and switch to "GitHub Actions" as the source.
+
+You can customize the deployment by editing the [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) file.
