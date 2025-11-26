@@ -21,6 +21,14 @@ This is a starter template for frontend projects. It includes a robust set of fe
 
 ## Getting started
 
+### Customize the project
+
+Run the following command, you will be prompted for the project name, description and package manager, it will update the proper files to match your choices.
+
+```bash
+npm run bootstrap
+```
+
 ## Scripts
 
 - `npm run dev`: Start the development server

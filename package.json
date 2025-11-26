@@ -34,7 +34,8 @@
     "typecheck:app": "tsc --noEmit -p ./tsconfig.app.json",
     "typecheck:node": "tsc --noEmit -p ./tsconfig.node.json",
     "typecheck": "npm run typecheck:app && npm run typecheck:node",
-    "prepare": "husky"
+    "prepare": "husky",
+    "bootstrap": "./scripts/bootstrap.ts"
   },
   "dependencies": {
     "react": "^19.2.0",
