@@ -41,7 +41,7 @@ function App() {
           </a>
         </div>
         <h1 className="mb-8 text-5xl leading-tight">
-          topheman/vite-react-ts-template
+          {import.meta.env.VITE_TITLE}
         </h1>
         <div className="p-8">
           <button
