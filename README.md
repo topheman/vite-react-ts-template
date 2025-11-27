@@ -21,12 +21,20 @@ This is a starter template for frontend projects. It includes a robust set of fe
 
 ## Getting started
 
-### Customize the project
+```bash
+npx degit topheman/vite-react-ts-template my-project
+cd $_ && git init && git add . && git commit -m "Initial commit"
+npm run bootstrap
+npm install # use your preferred package manager
+```
 
-Run the following command, you will be prompted for the project name, description and package manager, it will update the proper files to match your choices.
+OR
 
 ```bash
+git clone https://github.com/topheman/vite-react-ts-template.git my-project
+cd $_ && rm -rf .git && git init && git add . && git commit -m "Initial commit"
 npm run bootstrap
+npm install # use your preferred package manager
 ```
 
 ## Scripts
