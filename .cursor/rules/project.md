@@ -24,3 +24,4 @@ This project is based on a custom template relying on the following stack:
 - Use tailwind 4 for styling unless you are told otherwise.
 - Format on save is enabled.
 - Git hooks are enabled.
+- DO NOT LAUNCH a new dev server on your own. I will do it for you, it will be available at `http://localhost:5173`.
