@@ -25,3 +25,7 @@ This project is based on a custom template relying on the following stack:
 - Format on save is enabled.
 - Git hooks are enabled.
 - DO NOT LAUNCH a new dev server on your own. I will do it for you, it will be available at `http://localhost:5173`.
+
+## A Note To the Agent
+
+We are building this together. When you learn something non-obvious, add it here so future changes go faster.
